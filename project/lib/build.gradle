@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "1.0.0"
+version = "1.0.1"
 
 android {
     compileSdkVersion 23
@@ -12,7 +12,7 @@ android {
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
     }
     buildTypes {
         release {
@@ -28,7 +28,7 @@ android {
 
 def siteUrl = 'https://github.com/YuelianINC/Bugua-Android-MVP'      // Homepage URL of the library
 def gitUrl = 'https://github.com/YuelianINC/Bugua-Android-MVP.git'   // Git repository URL
-group = "com.bugua.mvp.lib"
+group = "com.bugua.mvp"
 
 install {
     repositories.mavenInstaller {
